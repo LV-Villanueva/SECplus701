@@ -190,6 +190,16 @@ end
 
 
 
+config t
+access-list 100 deny ip any host 208.8.8.131 log
+access-list 100 permit ip any any
+interface GigabitEthernet1
+ip access-group 100 in
+end
+
+
+
+
 
 
 
