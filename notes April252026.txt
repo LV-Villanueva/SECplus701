@@ -1,0 +1,135 @@
+IT service management @home:
+serviceNow, JIRA.
+
+username: root
+C1sc0123
+
+nmap -v ip
+
+SOC L1
+http:socir.rivanit.com/otrs/customer.pl
+
+C1sc0123
+
+SOC L3
+http:socir.rivanit.com/otrs/index.pl
+admin
+C1sc0123
+install git
+
+Task3: Git vs github
+
+git clone https://github.com/rivancorp/SECplus701
+
+
+certutil -hashfile DAY1-May5-SirRob.txt sha256
+
+CIA
+Confidentiality - security 
+Integrity - hash code
+Availability - 
+
+AAA
+Authentication
+Authorizaiton
+Accounting
+
+
+taas core password
+pass
+
+ netstat -s -p tcp >> use to check foreign address 
+ netstat -ano - to check the open ports in your pc 
+ cisco command 
+ show tcp brief all 
+ 
+ Public Key Infrastructure 
+ 
+ certlm.msc
+ get-Childitem -Path Cert:\LocalMachine\my
+ 
+ !dial-peer voice 91 Voip
+ destination-pattern 91..
+ session target ipv4:10.91.100.8
+ codec g711ULAW
+dial-peer voice 92 Voip
+ destination-pattern 92..
+ session target ipv4:10.92.100.8
+ codec g711ULAW
+ 
+ net use \\10.32.1.10\ipc$
+ net use z: \\10.32.1.10\c$
+ type z: in cmd
+ type dir
+ type mkdir _Foldername
+ 
+
+net use x: //208.8.8.131/c$
+windows run \\208.8.8.131\c$
+
+192.168.101.153
+
+
+208.8.8.138
+
+sudo /opt/lampp/lampp start
+sudo systemctl stop apache2
+
+
+http://192.168.102.135/mutillidae/src/index.php
+
+SELECT * FROM users WHERE username = 'input' AND password = 'input';
+
+ifconfig eth1 192.168.102.135 netmask 255.255.255.0
+                                                                                                                            
+route add default gw 192.168.102.2
+
+' OR '1'='1
+ 
+https://codeshare.io/anQeqE
+ 
+ 
+ git clone https://github.com/technicaldada/pentbox.git /home/rivan/pentbox-1.8
+
+tar -xzf pentbox.tar.gz --strip-components=1
+
+ls -la
+
+chmod +x pentbox.rb
+
+
+Host - based intrusion detection system (HIDS)
+FIM - File Integrity Monitoring
+
+
+
+!@IR-ELASTICSYS
+credentials:
+root
+C1sc0123
+http://192.168.102.133/otrs/index.pl
+
+admin
+C1sc0123
+
+http://192.168.102.133/otrs/customer.pl
+user1
+C1sc0123
+
+-----------------------------------------------------------
+!@linux wazuh v2
+Wazuhv2
+root
+C1sc0123
+ip addr
+sudo systemctl stop firewalld - off firewalld
+https://ipadd
+
+admin
+C1sc0123..
+
+
+
+
+
+
