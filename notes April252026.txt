@@ -199,6 +199,64 @@ end
 
 
 
+----------------------------------------------------------------------------------------------------------------------
+
+task1: AzureAD is your organization chart
+azure91.com
+ou - HR, ACT,SOC, NOC, AD
+gg
+lg
+users
+
+OU			users			globalgrp		localgrp
+HRD			hg, hb			ghr				lhr
+ACT			ag, ab			gact			lact
+SOC			sg, sb			gsoc			lsoc
+NOC			ng, nb			gnoc			lnoc
+
+
+AAA
+windows LDAP: lightweight directory access protocol
+
+C!sc0123
+
+config t
+AAA new-model
+username admin password pass
+radius-server host 10.91.1.8 key keykeymo
+ip radius source-interface vlan 1
+aaa authorization exec default group radius
+aaa authentication login default group radius local
+line vty 0 14
+  login authentication default
+end
+
+Task2: BALIK CCNA:
+config t
+no AAA new-model
+config t
+line vty 0 14
+ no login
+ login
+end
+
+
+
+sudo su
+ ifconfig eth0 10.11.11.101 netmask 255.255.255.224 up
+ route add default gw 10.11.11.113
+!
+
+sudo su
+ ifconfig eth0 10.21.21.211 netmask 255.255.255.240 up
+ route add default gw 10.21.21.213
+!
+
+
+
+
+
+
 
 
 
